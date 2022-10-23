@@ -35,16 +35,16 @@ public class Main {
     }
 
         public static int getClientOS(int a, int b) {
-            if (a ==0 && b>=2015) {
+            if (a ==0 && b>=2022) {
                 System.out.println("Установите версию приложения для iOS по ссылке");
                 return 0;
-            } else if (a==1 && b>=2015) {
+            } else if (a==1 && b>=2022) {
                 System.out.println("Установите версию приложения для Android по ссылке");
                 return 1;
-            } else if (a == 0 && b< 2015) {
+            } else if (a == 0 && b< 2022) {
                 System.out.println("Установите облегченную версию приложения для IOS по ссылке");
                 return 0;
-            } else if (a ==1 && b< 2015) {
+            } else if (a ==1 && b< 2022) {
                 System.out.println("Установите облегченную версию приложения для Android по ссылке");
             } return 1;
 
